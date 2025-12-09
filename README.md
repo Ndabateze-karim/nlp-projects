@@ -10,58 +10,43 @@ Natural Language Processing experiments and mini-projects using classical ML tec
 - Text preprocessing pipeline  
 
 ---
-📘 Example Project: SMS Spam Classification
+## 📘 Example Project: SMS Spam Classification
+This notebook demonstrates a complete NLP workflow for classifying SMS messages as **spam** or **ham** using TF-IDF vectorization and Logistic Regression.
 
-This notebook demonstrates a complete NLP workflow for classifying SMS messages as spam or ham using TF-IDF vectorization and Logistic Regression.
+### 🔹 Steps Covered
+- Load SMS spam dataset  
+- Convert labels (ham/spam) into numerical format  
+- Split dataset into train/test sets  
+- Convert text into numeric vectors using **TF-IDF**  
+- Train a Logistic Regression classifier  
+- Evaluate model using:
+  - Accuracy  
+  - Classification report  
+  - Confusion matrix  
+- Visualize results using Seaborn  
 
-🔹 Steps Covered
+### 🔹 Why this project?
+This project is widely used to demonstrate NLP fundamentals:
+- Text preprocessing  
+- Vectorization (TF-IDF)  
+- Binary classification  
+- Handling unstructured text data  
+- Evaluating NLP models  
 
-Load SMS spam dataset
+### 🔹 File
+`sms_spam_classification.ipynb`
 
-Convert labels (ham/spam) into numerical format
+### 🛠 Skills Demonstrated (Project-specific)
+- Text preprocessing  
+- TF-IDF vectorization  
+- Logistic Regression for NLP  
+- Evaluation of NLP models  
+- Confusion matrix interpretation  
+- Binary classification workflows  
 
-Split dataset into train/test sets
+---
 
-Convert text into numeric vectors using TF-IDF
-
-Train a Logistic Regression classifier
-
-Evaluate model using:
-
-Accuracy
-
-Classification report
-
-Confusion matrix
-
-Visualize results using Seaborn
-
-🔹 Why this project?
-
-This is one of the most widely used NLP beginner/intermediate datasets.
-It demonstrates essential NLP concepts:
-
-Text preprocessing
-
-Vectorization (TF-IDF)
-
-Binary classification
-
-Handling unstructured text data
-
-Evaluating NLP models
-
-
-
-🔹 File
-
-sms_spam_classification.ipynb
-
-
-## 🛠 Skills Demonstrated
-- Text preprocessing & cleaning
-- Binary classificcation
-- NLP workflow design
+## 🛠 Skills Demonstrated (General NLP repo)
 - Tokenization  
 - Lemmatization / Stemming  
 - Stopword removal  
